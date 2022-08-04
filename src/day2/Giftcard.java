@@ -6,7 +6,7 @@ public class Giftcard {
 
 
     //State
-    //-Amount(int)
+    //-Amount(Double)
     //-limit(string)
     //-Design(string)
     //-Size(int)
