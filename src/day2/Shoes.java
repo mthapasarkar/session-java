@@ -19,7 +19,7 @@ public class Shoes {
     //-sell
     //-wishlist
     //-watchlist
-    //-Discount
+    //-coupons
 
 
 

@@ -1,6 +1,6 @@
 package day2;
 
-import java.awt.*;
+
 
 public class Giftcard {
 
@@ -23,6 +23,6 @@ public class Giftcard {
     //Behavior
     //-Send
     //-Received
-    //-message
-    //-notes
+    //- write message
+    //- write notenotes
 }

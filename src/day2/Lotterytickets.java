@@ -12,15 +12,16 @@ public class Lotterytickets {
     //-Serial number
     //-company name
     //-Type
+    //-play
+
 
     //Behavior
-    //-play
     //-buy
     //-like
     //-Select
     //-Add funds
     //Auto play
-    //-orders
+    //- view orders
     //-Results
 
 
