@@ -4,25 +4,25 @@ public class Lotterytickets {
 
     //State
     //-Numbers
-    //-Date
-    //-Time
-    //-Name
-    //-Amount
-    //-barcode
-    //-Serial number
-    //-company name
-    //-Type
-    //-play
+    //-Date(int)
+    //-Time(int)
+    //-Name(String)
+    //-Amount(String)
+    //-barcode(String)
+    //-Serial number(string)
+    //-company name(String)
+    //-Type(String)
+    //-play(String)
 
 
     //Behavior
-    //-buy
-    //-like
-    //-Select
-    //-Add funds
-    //Auto play
-    //- view orders
-    //-Results
+    //-buy(boolean)
+    //-like(boolean)
+    //-Select(String)
+    //-Add funds(String)
+    //Auto play(String)
+    //- view orders(String)
+    //- view Results(String)
 
 
 

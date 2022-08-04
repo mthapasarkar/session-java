@@ -6,13 +6,13 @@ public class Giftcard {
 
 
     //State
-    //-Amount
-    //-limit
-    //-Design
-    //-Size
-    //-picture
-    //-code
-    //-name
+    //-Amount(int)
+    //-limit(string)
+    //-Design(string)
+    //-Size(int)
+    //-picture(String)
+    //-code(String)
+    //-name(String)
 
 
 
@@ -21,8 +21,8 @@ public class Giftcard {
 
 
     //Behavior
-    //-Send
-    //-Received
-    //- write message
-    //- write notenotes
+    //-Send(String)
+    //-Received(String)
+    //- write message(String)
+    //- write notes(String)
 }
