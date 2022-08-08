@@ -5,21 +5,21 @@ public class Shoes {
     //state
     //-color (String)
     //-brand(String)
-    //-price(Double)
-    //-size(int)
+    //-price(float)
+    //-size(float)
     //-gender(string)
     //-type(String)
-    //-quality(String)
+    //-Review(String)
 
 
 
 
     //behavior
-    //-Buy(String)
-    //-sell(String)
-    //-wishlist(String)
-    //-watchlist(String)
-    //-coupons(String)
+    //-Buy
+    //-sell
+    //-wishlist
+    //-watchlist
+    //-coupons
 
 
 

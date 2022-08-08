@@ -2,11 +2,12 @@ package day2;
 
 
 
-public class Giftcard {
+public class GiftCard {
 
 
     //State
-    //-Amount(Double)
+
+    //-Amount(float)
     //-limit(string)
     //-Design(string)
     //-Size(int)
@@ -21,8 +22,8 @@ public class Giftcard {
 
 
     //Behavior
-    //-Send(String)
-    //-Received(String)
-    //- write message(String)
-    //- write notes(String)
+    //-Send
+    //-Received
+    //- write message
+    //- write notes
 }
