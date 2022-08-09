@@ -6,14 +6,22 @@ public class GiftCard {
 
 
     //State
+float Amount;
+   String limit;
+   String design;
+   String picture;
+   int size;
 
-    //-Amount(float)
+   String code;
+   String companyName;
+
+
     //-limit(string)
     //-Design(string)
     //-Size(int)
     //-picture(String)
     //-code(String)
-    //-name(String)
+    //-companyName(String)
 
 
 
