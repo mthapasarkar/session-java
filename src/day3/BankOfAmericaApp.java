@@ -11,7 +11,7 @@ public class BankOfAmericaApp {
         thapaAccount.setBnbNumber("0554");
         thapaAccount.setSocialSecurityNumber("1234567");
         thapaAccount.setAccountHolderName ("Susan Thapa");
-        thapaAccount.setAccountType("Saving");
+        thapaAccount.setAccountType("Checking");
         thapaAccount.setAccountBalance(5000.0);
         thapaAccount.setAddress("60 seneca av Brooklyn NewYork 11556");
         thapaAccount.setConnectedMobileNumber("888-888-8888");
