@@ -21,15 +21,23 @@ public class AmazonWebApplication {
         iphone12.setNumberOfCamera(3);
 
 
-        iphone12.serialNumber = "87665ur3hg3i685y9856";
+       // iphone12.serialNumber = "87665ur3hg3i685y9856";
+         iphone12.setSerialNumber("87665ur3hg3i685y9856");
 
-        iphone12.size = 6.0f;
-        iphone12.storage = "64";
-        iphone12.unit = "gb";
-        iphone12.price = 999.99f;
+       // iphone12.size = 6.0f;
+        iphone12.setSize(6.0f);
+
+        //iphone12.storage = "64";
+        iphone12.setStorage("64");
+
+        //iphone12.unit = "gb";
+        iphone12.setUnit("gb");
+
+        //iphone12.price = 999.99f;
+        iphone12.setPrice(999.99f);
 
 
-        Mobile samsungS22 = new Mobile();
+      /*  Mobile samsungS22 = new Mobile();
         samsungS22.brand = "samsung";
         samsungS22.color = "black";
         samsungS22.os = "android";
@@ -41,20 +49,25 @@ public class AmazonWebApplication {
         samsungS22.price = 799.99f;
         samsungS22.size = 6.2f;
 
-
+*/
 
         System.out.println(iphone12.getBrand());
         System.out.println(iphone12.getColor());
         System.out.println(iphone12.getOs());
         System.out.println(iphone12.getModel());
+        System.out.println(iphone12.getNumberOfCamera());
+        System.out.println(iphone12.getSerialNumber());
+        System.out.println(iphone12.getPrice());
+        System.out.println(iphone12.getStorage());
+        System.out.println(iphone12.getUnit());
 
 // GiftCard
-        GiftCard target = new GiftCard();
+      /*  GiftCard target = new GiftCard();
         target.companyName = "target";
         target.Amount = 599.99f;
         target.limit = "2";
 
-
+*/
 
 
 
@@ -73,7 +86,7 @@ public class AmazonWebApplication {
         System.out.println(powerBall.getAmount());
         System.out.println(powerBall.getBarCode());
         System.out.println(powerBall.getCompanyName());
-        System.out.println((powerBall.getDate();
+        System.out.println(powerBall.getDate());
 
     }
 }
