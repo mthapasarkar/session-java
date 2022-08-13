@@ -1,10 +1,9 @@
 package day2;
 
 public class LotteryTickets {
-
-    private double numbers;
+    private String number;
     private long date;
-    private int time;
+    private long time;
     private String name;
     private float amount;
     private String barCode;
@@ -12,27 +11,27 @@ public class LotteryTickets {
     private String type;
     private String companyName;
 
-    public double getNumbers() {
-        return numbers;
+    public String getNumber() {
+        return number;
     }
 
-    public void setNumbers(double numbers) {
-        this.numbers = numbers;
+    public void setNumber(String s) {
+        this.number = number;
     }
 
     public long getDate() {
         return date;
     }
 
-    public void setDate(long date) {
+    public void setDate() {
         this.date = date;
     }
 
-    public int getTime() {
+    public long getTime() {
         return time;
     }
 
-    public void setTime(int time) {
+    public void setTime() {
         this.time = time;
     }
 
@@ -84,26 +83,3 @@ public class LotteryTickets {
         this.companyName = companyName;
     }
 }
-//-Numbers(int)
-    //-Date(long)
-    //-Time(int)
-    //-Name(String)
-    //-Amount(float)
-    //-barcode(String)
-    //-Serial number(string)
-    //-company name(String)
-    //-Type(String)
-
-
-
-    //Behavior
-    //-buy
-    //-like
-    //-Select
-    //-Add funds
-    //Auto play
-    //- view orders
-    //- view Results
-
-
-
