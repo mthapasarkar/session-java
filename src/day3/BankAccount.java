@@ -79,17 +79,16 @@ public class BankAccount {
         this.accountBalance = accountBalance;
     }
 
-    @Override
-    public String toString() {
-        return "BankAccount{" +
-                "accountNumber='" + accountNumber + '\'' +
-                ", accountHolderName='" + accountHolderName + '\'' +
-                ", accountType='" + accountType + '\'' +
-                ", address='" + address + '\'' +
-                ", connectedMobileNumber='" + connectedMobileNumber + '\'' +
-                ", bnbNumber='" + bnbNumber + '\'' +
-                ", socialSecurityNumber='" + socialSecurityNumber + '\'' +
-                ", accountBalance=" + accountBalance +
-                '}';
+
+    public void transferBalance(BankAccount fromAccount, BankAccount toAccount, double balance){
+    double fromFinalBalance = fromAccount.getAccountBalance() - balance;
+    double toFinalBalance = toAccount.getAccountBalance() + balance;
+
+    fromAccount.setAccountBalance(fromFinalBalance);
+    toAccount.setAccountBalance(toFinalBalance);
+
+
     }
-}
+
+    }
+

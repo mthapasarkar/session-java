@@ -1,6 +1,8 @@
 package day3;
 
 
+import java.sql.SQLOutput;
+
 public class BankOfAmericaApp {
 
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class BankOfAmericaApp {
         thapaAccount.setAccountHolderName ("Susan Thapa");
         thapaAccount.setAccountType("Checking");
         thapaAccount.setAccountBalance(5000.0);
-        thapaAccount.setAddress("60 seneca av Brooklyn NewYork 11556");
+        thapaAccount.setAddress("Brooklyn NewYork 11556");
         thapaAccount.setConnectedMobileNumber("888-888-8888");
 
 
@@ -28,7 +30,32 @@ public class BankOfAmericaApp {
 
 
 
+        BankAccount friendAccount = new BankAccount();
+        friendAccount.getAccountNumber();
+        friendAccount.setBnbNumber("0554");
+        friendAccount.setSocialSecurityNumber("1234567");
+        friendAccount.setAccountHolderName ("Susan Thapa");
+        friendAccount.setAccountType("Checking");
+        friendAccount.setAccountBalance(2000.0);
+        friendAccount.setAddress("Brooklyn NewYork 11554");
+        friendAccount.setConnectedMobileNumber("888-888-8889");
+
+        System.out.println(friendAccount.getAccountNumber());
+        System.out.println(friendAccount.getBnbNumber());
+        System.out.println(friendAccount.getAccountBalance());
+        System.out.println(friendAccount.getAccountHolderName());
+        System.out.println(friendAccount.getAddress());
+        System.out.println(friendAccount.getConnectedMobileNumber());
+        System.out.println(friendAccount.getAccountType());
 
 
+
+        System.out.println("========Before  Transaction=========");
+
+
+        BankAccount dummyAccount = new BankAccount();
+        dummyAccount.transferBalance(thapaAccount,friendAccount,balance:300);
+
+        System.out.println("=======After Transaction=======");
     }
 }
