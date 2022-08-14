@@ -12,7 +12,7 @@ public class schoolApp {
         teacher teacher1 = new teacher();
         teacher1.setName("Hari");
         teacher1.setAge(30);
-        teacher1.setSubject("Math");
+        teacher1.setSubject("Computer");
 
 
         System.out.println(student1.getName());
