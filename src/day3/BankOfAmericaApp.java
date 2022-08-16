@@ -54,7 +54,7 @@ public class BankOfAmericaApp {
 
 
         BankAccount dummyAccount = new BankAccount();
-        dummyAccount.transferBalance(thapaAccount,friendAccount,balance:300);
+        dummyAccount.transferBalance(thapaAccount,friendAccount,300);
 
         System.out.println("=======After Transaction=======");
     }

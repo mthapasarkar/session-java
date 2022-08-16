@@ -1,6 +1,6 @@
 package day5;
 
-public class schoolApp {
+public class SchoolApp {
     public static void main(String[] args) {
         student student1 = new student();
         student1.setName("Ram");
